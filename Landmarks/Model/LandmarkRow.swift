@@ -6,7 +6,8 @@ struct LandmarkRow: View {
 
 
     var body: some View {
-
+        
+        
         HStack {
 
             landmark.image

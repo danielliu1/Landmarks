@@ -1,17 +1,13 @@
-//
-//  LandmarksApp.swift
-//  Landmarks
-//
-//  Created by dl1 on 2/5/21.
-//
-
-import SwiftUI
+ import SwiftUI
 
 @main
 struct LandmarksApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

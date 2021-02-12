@@ -20,7 +20,7 @@ struct BadgeBackground: View {
                 HexagonParameters.segments.forEach { segment in
                     path.addLine(
                         to: CGPoint(
-                            x: width * segment.line.x,
+                            x: width * segment.line.x + xOffset,
                             y: height * segment.line.y
                         )
                     )

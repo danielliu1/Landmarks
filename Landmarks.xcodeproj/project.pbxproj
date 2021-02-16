@@ -30,6 +30,12 @@
 		0EA88C1725D22C4B00FD434F /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA88C1625D22C4B00FD434F /* BadgeBackground.swift */; };
 		0EAE831425D68E7C00D27107 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE831325D68E7C00D27107 /* CategoryRow.swift */; };
 		0EAE831725D7856100D27107 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE831625D7856100D27107 /* CategoryItem.swift */; };
+		0EBFBCD025DC176E005F22E7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFBCCF25DC176E005F22E7 /* PageViewController.swift */; };
+		0EBFBCD325DC1D78005F22E7 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFBCD225DC1D78005F22E7 /* FeatureCard.swift */; };
+		0EBFBCD625DC1DF7005F22E7 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBFBCD525DC1DF7005F22E7 /* PageView.swift */; };
+		0EBFBCDB25DC1E81005F22E7 /* stmarylake_feature@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EBFBCD825DC1E81005F22E7 /* stmarylake_feature@2x.jpg */; };
+		0EBFBCDC25DC1E81005F22E7 /* turtlerock_feature@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EBFBCD925DC1E81005F22E7 /* turtlerock_feature@2x.jpg */; };
+		0EBFBCDD25DC1E81005F22E7 /* charleyrivers_feature@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EBFBCDA25DC1E81005F22E7 /* charleyrivers_feature@2x.jpg */; };
 		0ECE585725D6155E00A34C68 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ECE585625D6155D00A34C68 /* hikeData.json */; };
 		0ECE585A25D617C200A34C68 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECE585925D617C200A34C68 /* Hike.swift */; };
 		0ECE586125D61A7A00A34C68 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECE585D25D61A7A00A34C68 /* GraphCapsule.swift */; };
@@ -67,6 +73,12 @@
 		0EA88C1625D22C4B00FD434F /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		0EAE831325D68E7C00D27107 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		0EAE831625D7856100D27107 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		0EBFBCCF25DC176E005F22E7 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0EBFBCD225DC1D78005F22E7 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		0EBFBCD525DC1DF7005F22E7 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		0EBFBCD825DC1E81005F22E7 /* stmarylake_feature@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stmarylake_feature@2x.jpg"; sourceTree = "<group>"; };
+		0EBFBCD925DC1E81005F22E7 /* turtlerock_feature@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock_feature@2x.jpg"; sourceTree = "<group>"; };
+		0EBFBCDA25DC1E81005F22E7 /* charleyrivers_feature@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charleyrivers_feature@2x.jpg"; sourceTree = "<group>"; };
 		0ECE585625D6155D00A34C68 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		0ECE585925D617C200A34C68 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		0ECE585D25D61A7A00A34C68 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
@@ -118,6 +130,7 @@
 		0E60C45925CE03DF006F6C08 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				0EBFBCCE25DC1753005F22E7 /* PageView */,
 				0ECE586625D631AE00A34C68 /* Categories */,
 				0ECE585C25D61A7A00A34C68 /* Hikes */,
 				0E60C49B25CE2C22006F6C08 /* Views */,
@@ -135,6 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				0E60C46125CE03DF006F6C08 /* Preview Assets.xcassets */,
+				0EBFBCDA25DC1E81005F22E7 /* charleyrivers_feature@2x.jpg */,
+				0EBFBCD825DC1E81005F22E7 /* stmarylake_feature@2x.jpg */,
+				0EBFBCD925DC1E81005F22E7 /* turtlerock_feature@2x.jpg */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -191,6 +207,16 @@
 				0E618EFC25D081B40009D2DD /* FavoriteButton.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0EBFBCCE25DC1753005F22E7 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				0EBFBCCF25DC176E005F22E7 /* PageViewController.swift */,
+				0EBFBCD225DC1D78005F22E7 /* FeatureCard.swift */,
+				0EBFBCD525DC1DF7005F22E7 /* PageView.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 		0ECE585C25D61A7A00A34C68 /* Hikes */ = {
@@ -285,8 +311,11 @@
 			files = (
 				0ECE585725D6155E00A34C68 /* hikeData.json in Resources */,
 				0E60C46225CE03DF006F6C08 /* Preview Assets.xcassets in Resources */,
+				0EBFBCDD25DC1E81005F22E7 /* charleyrivers_feature@2x.jpg in Resources */,
+				0EBFBCDC25DC1E81005F22E7 /* turtlerock_feature@2x.jpg in Resources */,
 				0E60C45F25CE03DF006F6C08 /* Assets.xcassets in Resources */,
 				0E60C47125CE2760006F6C08 /* landmarkData.json in Resources */,
+				0EBFBCDB25DC1E81005F22E7 /* stmarylake_feature@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +330,7 @@
 				0E073F9525D9846F009F6739 /* Profile.swift in Sources */,
 				0E60C45D25CE03DF006F6C08 /* ContentView.swift in Sources */,
 				0ECE586825D631DB00A34C68 /* CategoryHome.swift in Sources */,
+				0EBFBCD325DC1D78005F22E7 /* FeatureCard.swift in Sources */,
 				0ECE586225D61A7A00A34C68 /* HikeGraph.swift in Sources */,
 				0E3838FA25D26CEF000700A7 /* Badge.swift in Sources */,
 				0E60C46E25CE12BB006F6C08 /* MapView.swift in Sources */,
@@ -314,11 +344,13 @@
 				0E34418C25D9927F003C3D6B /* ProfileHost.swift in Sources */,
 				0ECE585A25D617C200A34C68 /* Hike.swift in Sources */,
 				0E3838F725D26C08000700A7 /* RotatedBadgeSymbol.swift in Sources */,
+				0EBFBCD625DC1DF7005F22E7 /* PageView.swift in Sources */,
 				0E3838F425D258E4000700A7 /* BadgeSymbol.swift in Sources */,
 				0EFE7EAD25DAC98000D45F5E /* ProfileEditor.swift in Sources */,
 				0E24593125CE498C00175493 /* LandmarkList.swift in Sources */,
 				0ECE586425D61A7A00A34C68 /* HikeView.swift in Sources */,
 				0E60C46B25CE10C0006F6C08 /* CircleImage.swift in Sources */,
+				0EBFBCD025DC176E005F22E7 /* PageViewController.swift in Sources */,
 				0EA88C1725D22C4B00FD434F /* BadgeBackground.swift in Sources */,
 				0EE00D8625DA4AB700EB3688 /* HikeBadge.swift in Sources */,
 				0E60C47C25CE282A006F6C08 /* Landmark.swift in Sources */,
@@ -454,6 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 49X6JKB4S5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -461,7 +494,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = hikinglandmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,6 +508,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 49X6JKB4S5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -482,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = hikinglandmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

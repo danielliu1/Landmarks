@@ -41,4 +41,3 @@ struct ProfileHost_Previews: PreviewProvider {
     }
 }
 
-No Preview

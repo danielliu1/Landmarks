@@ -32,6 +32,19 @@ struct CategoryHome: View {
     }
 }
 
+.sheet(isPresented: $showingProfile) {
+    ProfileHost()
+        .environmentObject(modelData)
+}
+}
+}
+}            .sheet(isPresented: $showingProfile) {
+    ProfileHost()
+        .environmentObject(modelData)
+}
+}
+}
+}
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
